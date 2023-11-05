@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/page.jsx", "src/components/health/BMIResults.jsx", "src/components/health/CalorieRequirement.jsx", "src/components/health/HealthCal.jsx", "src/components/health/HealthInputs.jsx", "src/components/reusableComponents/LabeledSelect.jsx", "src/components/reusableComponents/LabelInput.jsx", "src/components/reusableComponents/ResultLines.jsx", "src/app/healthCalculator/page.jsx", "src/components/health/BMIResults.jsx"],
+  "exclude": ["node_modules"]
+}
