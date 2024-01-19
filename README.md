@@ -1,7 +1,9 @@
 
 ## About project
-This is a [Next.js] (https://nextjs.org/) frontend application; developed with JavaScript and React. 
-Link: https://etoolsbuddy.com/HealthCalculator
+This is a [Next.js] (https://nextjs.org/) frontend application; developed with JavaScript and React.
+
+#### Link: https://etoolsbuddy.com/HealthCalculator
+
 ![View of App](./public/healthcal.jpg)
 
 ## Getting Started
